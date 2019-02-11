@@ -220,27 +220,27 @@ bool evaluate(const char* expressionToBeEvaluated, int& result)
 
 
 
-// int main()
-// {
-//     bool evaluationStatus = false;
-//     int result = 0;
+int main()
+{
+    bool evaluationStatus = false;
+    int result = 0;
 
-//     // std::string expression = "11";
-//     // std::string expression = "( 1 )";
-//     // std::string expression = "11 + 33";
-//     // std::string expression = "(11 + 338)";
-//     // std::string expression = "(1 + 3)* 2";
-//     // std::string expression = "(4 / 2) +6";
-//     // std::string expression = "(4 / 2) +6 4 + (12 / (1 * 2))";
-//     // const char* expression = "(4 / 2) +6 -4 + (12 / (1 * 2))";
-//     // const char* expression = "((4 / 2) +6 4 (8 / (12 / 1 * 2))";
-//     evaluationStatus = evaluate(expression, result);
+    // std::string expression = "11";
+    // std::string expression = "( 1 )";
+    // std::string expression = "11 + 33";
+    // std::string expression = "(11 + 338)";
+    // std::string expression = "(1 + 3)* 2";
+    // std::string expression = "(4 / 2) +6";
+    // std::string expression = "(4 / 2) +6 4 + (12 / (1 * 2))";
+    // const char* expression = "(4 / 2) +6 -4 + (12 / (1 * 2))";
+    const char* expression = "((4 / 2) +6 4 (8 / (12 / 1 * 2))";
+    evaluationStatus = evaluate(expression, result);
 
-//     std::cout << expression << std::endl << "Evaluation Status : " << evaluationStatus << std::endl;
-//     if(evaluationStatus)
-//     {
-//         std::cout << "Result : " << result << std::endl;
-//     }
+    std::cout << expression << std::endl << "Evaluation Status : " << evaluationStatus << std::endl;
+    if(evaluationStatus)
+    {
+        std::cout << "Result : " << result << std::endl;
+    }
 
-//     return 0;
-// }
+    return 0;
+}

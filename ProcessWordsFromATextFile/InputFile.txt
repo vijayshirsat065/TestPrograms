@@ -1,6 +1,0 @@
-This is a Demo Sentence1.
-This is also a demo sentence2.
-This is advanced test of all
-features of the program. To check Validity, this demo file contains 
-come demo sentences. This is an incomplete sentence which should be
-ignored

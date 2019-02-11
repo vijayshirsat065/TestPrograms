@@ -1,0 +1,11 @@
+Total Sentences - 4
+Total Words - 38
+Distinct Words - 27
+Mean Of Lengths - 4.8421
+Median Of Lengths - 6
+Mode Of Lengths - 4
+Range Of Lengths - 8
+Five Most Common Words - This, is, demo, of, Sentence1
+Five Least Common Words - features, which, this, the, test
+Five Most Common Letters - a
+Five Least Common Letters - a
